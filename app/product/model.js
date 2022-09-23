@@ -32,9 +32,6 @@ const productSchema = Schema({
     ref: 'Tag'
   }
 
-
-
-
 }, { timestamps: true });
 
 module.exports = model('Product', productSchema);
