@@ -91,7 +91,6 @@ const index = async (req, res, next) => {
         .skip(parseInt(skip))
         .limit(parseInt(limit))
         .sort('-createdAt');
-
     return res.json({ data: address, count });
   } catch (err) {
     if (err && err.name == 'ValidationError') {
