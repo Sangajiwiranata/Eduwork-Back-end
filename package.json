@@ -2,6 +2,9 @@
   "name": "eduwork-server",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node" : "14.x"
+  },
   "scripts": {
     "start": "SET DEBUG=eduwork-server:* && node ./bin/www"
   },
